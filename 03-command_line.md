@@ -22,11 +22,11 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * show current working directory path - pwd
 * creating a directory - mkdir
 * deleting a directory - rmdir
-* creating a file using `touch` command
+* creating a file using `touch` command - touch filename
 * deleting a file - rm
-* renaming a file
+* renaming a file - mv filename newfilename
 * listing hidden files - ls-a
-* copying a file from one directory to another
+* copying a file from one directory to another - cp filename
 
 ---
 
