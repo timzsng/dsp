@@ -27,6 +27,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 * renaming a file - mv filename newfilename
 * listing hidden files - ls-a
 * copying a file from one directory to another - cp filename
+* help page - man command
+* change directory - cd
+
 
 ---
 
@@ -41,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`  - list directory contents
+`ls -a`  - list all files
+`ls -l`  - list all files in long format
+`ls -lh`  - lists all files in long format but with different units for the bytes
+`ls -lah`  - includes hidden files
+`ls -t`  - sorts by time modified
+`ls -Glp`  - G is for colorized output, l is for long format, p is to identify directories with a /
 
 ---
 
@@ -49,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -G
+ls -Gl
+ls -Gla
+ls -Glap
+ls -Glapt
 
 ---
 
@@ -57,7 +70,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+constructs an argument and executes a utility 
  
 
